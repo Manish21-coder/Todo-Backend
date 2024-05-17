@@ -11,7 +11,7 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("/student")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://dailytaskmanager.vercel.app")
 public class StudetnController {
 
     @Autowired
